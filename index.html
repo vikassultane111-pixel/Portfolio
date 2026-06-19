@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Mast Meta Tags for Hacker Vibe & SEO -->
+    <meta name="description" content="Vikas Sultane - Security Engineer, Web Developer & Cyber Enthusiast. Securing the Digital Frontier.">
+    <meta name="author" content="Vikas Sultane">
+    <meta name="theme-color" content="#10b981">
+    <meta name="keywords" content="Security Engineer, VAPT, Penetration Testing, IoT, Web Development, Vikas Sultane">
+    
     <title>Vikas Sultane | Security Engineer</title>
     
     <!-- Tailwind CSS -->
@@ -12,14 +19,11 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     
-    <!-- Babel for JSX -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Babel for JSX (Pinned to stable version to prevent auto-import injection bugs) -->
+    <script src="https://unpkg.com/@babel/standalone@7.23.9/babel.min.js"></script>
     
     <!-- Three.js for 3D Graphics -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    
-    <!-- Icons (Lucide) -->
-    <script src="https://unpkg.com/lucide@latest"></script>
 
     <!-- Font Awesome for Social Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -160,7 +164,7 @@
     
     <div id="root"></div>
 
-    <script type="text/babel">
+    <script type="text/babel" data-type="module">
         const { useState, useEffect, useRef } = React;
 
         // --- Components ---
@@ -557,7 +561,7 @@
                             <a href="https://www.linkedin.com/in/vikas-sultane-82244322b" target="_blank" className="px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-black font-bold rounded flex justify-center items-center gap-2 transition-all hover:scale-105 shadow-[0_0_20px_rgba(16,185,129,0.4)] text-sm md:text-base">
                                 <i className="fa-brands fa-linkedin"></i> Hire Me
                             </a>
-                            <a href="vk1.html" target="_blank" className="px-8 py-3 border border-gray-600 hover:border-emerald-500 text-gray-300 hover:text-emerald-400 font-bold rounded transition-all hover:bg-emerald-900/10 text-center text-sm md:text-base">
+                            <a href="https://ressume.pages.dev/" target="_blank" className="px-8 py-3 border border-gray-600 hover:border-emerald-500 text-gray-300 hover:text-emerald-400 font-bold rounded transition-all hover:bg-emerald-900/10 text-center text-sm md:text-base">
                                 <i className="fa-solid fa-file-pdf"></i> View Resume
                             </a>
                         </div>
